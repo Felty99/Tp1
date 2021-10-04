@@ -11,29 +11,41 @@
     <title>El Mejor Mate</title>
   </head>
   <body>
-    <header>
-        <a href="acerca_de.html"> Conoce más del mate</a>
-        <a href="contacto"> Más de nosotros </a>
-        <a href="detalle.html"> Detalles del producto </a>
-    </header>
-  <h1>Hello, world!</h1>
+    <header style="background-color:rgb(57, 62, 42);">
+      <nav><strong> <a href="acerca_de.html" style="color:blueviolet"> Conoce más del mate</a>
+        <a href="contacto.html" class="text-success" > <margin>Más de nosotros</margin> </a> 
+        <a href="detalle.html"class="text-warning">  Detalle del producto </a>
+        </strong>
+    </header></nav>
+    
+  <div style="background-color: rgba(90, 20, 20, 0.678);">
+    <br><h1 style="color: chocolate;">¡Contactanos!</h1>
+  <br>
+    <h3>Dejanos tus dudas</h3>
+    <form method="post" enctype="multipart/form-data" href="mailto:leonel.pineiro@davinci.edu.ar">
+    <label for="name">Nombre: </label><input type="text" name="firstname" id="firstname"  placeholder="Ingrese su nombre aqui..."> <br><br>
+    <label for="mail">Mail:  </label><input type="email"    name="mail"      id="mail"   placeholder="Ingrese su email..."   > <br><br>
+    <label for="comentarios"></label> <textarea name="comentarios" rows="5" cols="50" placeholder="Ingrese su consulta aquí..."></textarea>
+    <br><br>
 
-
-
-  
-  <footer>
+    <input type="submit" value="Enviar" target=_blank href="mailto:leonel.pineiro@davinci.edu.ar">
+  </form>
+ <br><br><br>
+</div>
+ <footer style="background-color:rgb(57, 62, 42);">
       <p>
-    <a href="acerca_de.html" target=_blank>Conoce más del mate</a>
+    <a href="acerca_de.html" style="color:white" target=_blank >Conoce más del mate</a>
       <img target=_blank src="img/mate.png" 
           width="30"> <br><br>
-      <a href="instagram.com/matelandia" target=_blank> Nuestro Instagram 
+      <a href="instagram.com/matelandia" style="color: white;" target=_blank> Nuestro Instagram 
           <img target=_blank src="img/ig.png" 
           width="30"> <br><br>
-          <a href="facebook.com/matelandia" target=_blank> Nuestro facebook 
+          <a href="facebook.com/matelandia" style="color:white" target=_blank> Nuestro facebook 
             <img target=_blank src="img/facebook.png" 
             width="30"> <br><br>
           
       </a>
     </p>
+  
   </footer>
 </html>
